@@ -83,8 +83,6 @@ packing.toiletries = [
     { id: uuid(), name: "Selftan", quantity: 1, completed: false },
     { id: uuid(), name: "Dagcrème", quantity: 1, completed: false }
 
-];
-
     ];
     packing.medicine = [
 
