@@ -5,8 +5,6 @@ export default function defaultPackingPersonal() {
 
     const packing = defaultPacking();
 
-    packing.clothing = [
-
 packing.clothing = [
 
     { id: uuid(), name: "Zonnebrillen", quantity: 2, completed: false },
@@ -43,7 +41,6 @@ packing.clothing = [
 
 ];
 
-    packing.toiletries = [
 
 packing.toiletries = [
 
@@ -91,7 +88,6 @@ packing.toiletries = [
     ];
     packing.medicine = [
 
-packing.medicine = [
 
     { id: uuid(), name: "Daflon", quantity: 1, completed: false },
     { id: uuid(), name: "Pantomed", quantity: 1, completed: false },
