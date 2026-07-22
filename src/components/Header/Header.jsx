@@ -12,7 +12,7 @@ export default function Header(){
 
                 <h1>
 
-                    🧳 PackPal
+                    🧳 Op Reis David & Wendy
 
                 </h1>
 
