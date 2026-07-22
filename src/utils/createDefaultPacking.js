@@ -1,7 +1,5 @@
-import defaultPacking from "./defaultPacking";
+import defaultPackingPersonal from "../config/defaultPackingPersonal";
 
 export default function createDefaultPacking() {
-
-    return defaultPacking();
-
+    return defaultPackingPersonal();
 }
