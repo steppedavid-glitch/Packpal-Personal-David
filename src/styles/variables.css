@@ -1,0 +1,88 @@
+:root {
+
+    /* Brand */
+
+    --primary: #007AFF;
+    --primary-hover: #0066D6;
+
+    /* Status */
+
+    --success: #34C759;
+    --danger: #FF3B30;
+    --warning: #FF9500;
+
+    /* Surfaces */
+
+    --background: #F5F5F7;
+    --surface: #FFFFFF;
+    --surface-hover: #FAFAFA;
+
+    /* Typography */
+
+    --text: #1C1C1E;
+    --text-secondary: #6E6E73;
+
+    /* Borders */
+
+    --border: #E5E5EA;
+
+    /* Border radius */
+
+    --radius: 24px;
+    --radius-small: 16px;
+
+    /* Shadows */
+
+    --shadow: 0 10px 30px rgba(0, 0, 0, .08);
+
+    /* Animation */
+
+    --transition: .25s ease;
+
+}
+
+[data-theme="dark"] {
+
+    --background: #000000;
+
+    --surface: #1C1C1E;
+
+    --surface-hover: #2C2C2E;
+
+    --text: #FFFFFF;
+
+    --text-secondary: #AEAEB2;
+
+    --border: #3A3A3C;
+
+}
+
+[data-theme="dark"] .header {
+
+    background: rgba(28, 28, 30, .82);
+
+}
+
+[data-theme="dark"] .modal {
+
+    background: var(--surface);
+
+}
+
+[data-theme="dark"] input,
+[data-theme="dark"] select,
+[data-theme="dark"] textarea {
+
+    background: var(--surface-hover);
+
+    color: var(--text);
+
+    border-color: var(--border);
+
+}
+
+[data-theme="dark"] .progress-track {
+
+    background: #3A3A3C;
+
+}

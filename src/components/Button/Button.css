@@ -1,0 +1,35 @@
+.pp-button {
+
+    background: var(--primary);
+
+    color: white;
+
+    border: none;
+
+    border-radius: var(--radius-small);
+
+    padding: 14px 22px;
+
+    font-size: 16px;
+
+    font-weight: 600;
+
+    cursor: pointer;
+
+    transition: var(--transition);
+
+}
+
+.pp-button:hover {
+
+    background: var(--primary-hover);
+
+    transform: translateY(-2px);
+
+}
+
+.pp-button:active {
+
+    transform: translateY(0);
+
+}
